@@ -8,6 +8,11 @@ public class InputUtils {
     return scanner.nextInt();
   }
 
+  public static float reqFloat(String msg) {
+    System.out.println(msg);
+    return scanner.nextFloat();
+  }
+
   public static String reqString(String msg) {
     System.out.print(msg);
     String cadena = scanner.nextLine();
