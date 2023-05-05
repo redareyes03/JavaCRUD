@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Main {
   public static void main(String[] args) {
     DataBase db = DataBase.getConnection();
@@ -27,11 +25,4 @@ public class Main {
       System.out.println(e);
     }
   }
-
-  public static String requestedField(String label, String field, Scanner in) {
-    System.out.print(label + ": ");
-    field = in.nextLine();
-    return field;
-  }
-
 }
