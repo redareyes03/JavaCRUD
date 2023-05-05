@@ -1,6 +1,4 @@
-import java.sql.ResultSet;
-
-import workers.Piloto;
+import workers.*;
 
 public class Main {
   public static void main(String[] args) {
